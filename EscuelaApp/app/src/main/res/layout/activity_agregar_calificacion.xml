@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adi.escuelaapp.AgregarCalificacion">
+
+    <TextView
+        android:id="@+id/agregarCalificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calificaciones"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edtCalificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/agregarCalificacion"
+        android:layout_marginTop="30dp"
+        android:hint="Calificacion"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <Spinner
+        android:id="@+id/spinnerUsuarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtCalificacion"
+        android:layout_marginTop="30dp" />
+
+    <Spinner
+        android:id="@+id/spinnerMaterias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerUsuarios"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/btnAgregarCalificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Agregar" />
+</RelativeLayout>

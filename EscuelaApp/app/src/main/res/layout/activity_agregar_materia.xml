@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adi.escuelaapp.AgregarMateria">
+
+    <TextView
+        android:id="@+id/txtEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Agregar Materia"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <EditText
+        android:inputType="text|textCapSentences|textAutoComplete|textAutoCorrect"
+        android:id="@+id/edtClave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:hint="Clave"
+        android:textAlignment="center"
+        android:layout_below="@+id/txtEditar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/edtNombre"
+        android:textAlignment="center"
+        android:hint="Nombre"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/edtClave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:text="Agregar"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

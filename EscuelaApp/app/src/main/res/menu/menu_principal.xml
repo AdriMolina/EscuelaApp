@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/editar"
+        app:showAsAction="always"
+        android:title="Editar"
+        android:icon="@drawable/ic_editar"/>
+    <item
+        android:id="@+id/agregar_alumno"
+        app:showAsAction="always"
+        android:title="Agregar alumno"
+        android:icon="@drawable/ic_agregar_alumno"/>
+    <item
+        android:id="@+id/agregar_calificacion"
+        app:showAsAction="ifRoom"
+        android:title="Registrar Calificacion"
+        android:icon="@drawable/ic_agregar_calificacion"/>
+    <item
+        android:id="@+id/agregar_materia"
+        app:showAsAction="ifRoom"
+        android:title="Agregar Materia"
+        android:icon="@drawable/ic_agregar_materia"/>
+
+
+
+</menu>
